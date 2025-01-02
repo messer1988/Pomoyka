@@ -18,6 +18,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
+                echo "Hello World"
                 echo 'Running tests...'
                 sh 'pytest tests/'
             }
